@@ -17,6 +17,9 @@ The data for this analysis has been sourced from the internal logs and historica
 
 Additionally, **generated_data.csv** contains the generated data used for forecasting.
 
+![Screenshot 2025-03-03 105745](https://github.com/user-attachments/assets/31ad6402-9b26-4ec5-8b32-97974eeae819)
+
+
 ### About the Data
 The dataset contains the following key variables:
 - **db_size_history:** This variable tracks the growth of the user database size with active files. Data for this variable has been collected since the database's inception in September 2022. Records for db_size_history are only logged when there is an increase in size, resulting in missing records for months where no increase occurred.
@@ -36,11 +39,6 @@ Since we had missing logs and the company had not subscribed to paid services, w
 - Current free space: 354 GB
 - Oracle database mount point occupied by database size: 2347 GB
 - Additional median size of archive logs: 316 GB
-
-### Database Growth Statistics
-Here’s a well-formatted version of your data for a **README** file:  
-
----
 
 # Database Growth Report  
 
